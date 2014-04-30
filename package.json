@@ -1,0 +1,13 @@
+{
+  "name": "test1",
+  "description": "A TEST",
+  "author": "angel",
+  "dependencies": {
+    "express": "4.x",
+    "connect": "x",
+    "jade": "x",
+    "mysql" : "x"    
+    
+  }
+  
+}

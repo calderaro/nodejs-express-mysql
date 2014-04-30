@@ -1,0 +1,26 @@
+doctype 
+html
+  head
+
+    
+    title= pageTitle
+   
+  body
+    
+  - each cat in pageTitle
+    div
+      div
+        = cat.name 
+      div
+        = cat.sex 
+      div
+        = cat.birth 
+      
+      
+ 
+
+
+  script(src='http://code.jquery.com/jquery-2.1.0.js')
+  script(src='/socket.io/socket.io.js')
+
+  
